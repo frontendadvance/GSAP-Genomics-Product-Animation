@@ -1,0 +1,29 @@
+html {
+  font-size: calc(10000vw / 1920);
+}
+@media (min-aspect-ratio: 1440/1080) {
+  html {
+    font-size: calc(10000vh / 1080);
+  }
+}
+
+:root {
+  --main-font: "Work Sans", sans-serif;
+  --color-black: #000000;
+  --color-black-light: #181b1a;
+  --color-light-purity: #E0D8EB;
+  --color-fat-tuesday: #341F37;
+  --color-bashful-pancy: #D8CEE6;
+  --color-sugar-crystal: #F9F5FF;
+  --color-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  background: var(--color-fat-tuesday);
+  margin: 0;
+}
